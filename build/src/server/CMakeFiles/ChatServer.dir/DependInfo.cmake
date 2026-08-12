@@ -4,15 +4,15 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/xxnwch/code/my_server_learn/2chat/src/server/chatserver.cpp" "/home/xxnwch/code/my_server_learn/2chat/build/src/server/CMakeFiles/ChatServer.dir/chatserver.cpp.o"
-  "/home/xxnwch/code/my_server_learn/2chat/src/server/chatservice.cpp" "/home/xxnwch/code/my_server_learn/2chat/build/src/server/CMakeFiles/ChatServer.dir/chatservice.cpp.o"
-  "/home/xxnwch/code/my_server_learn/2chat/src/server/db/db.cpp" "/home/xxnwch/code/my_server_learn/2chat/build/src/server/CMakeFiles/ChatServer.dir/db/db.cpp.o"
-  "/home/xxnwch/code/my_server_learn/2chat/src/server/main.cpp" "/home/xxnwch/code/my_server_learn/2chat/build/src/server/CMakeFiles/ChatServer.dir/main.cpp.o"
-  "/home/xxnwch/code/my_server_learn/2chat/src/server/model/FriendModel.cpp" "/home/xxnwch/code/my_server_learn/2chat/build/src/server/CMakeFiles/ChatServer.dir/model/FriendModel.cpp.o"
-  "/home/xxnwch/code/my_server_learn/2chat/src/server/model/GroupModel.cpp" "/home/xxnwch/code/my_server_learn/2chat/build/src/server/CMakeFiles/ChatServer.dir/model/GroupModel.cpp.o"
-  "/home/xxnwch/code/my_server_learn/2chat/src/server/model/OfflineMessageModel.cpp" "/home/xxnwch/code/my_server_learn/2chat/build/src/server/CMakeFiles/ChatServer.dir/model/OfflineMessageModel.cpp.o"
-  "/home/xxnwch/code/my_server_learn/2chat/src/server/model/UserModel.cpp" "/home/xxnwch/code/my_server_learn/2chat/build/src/server/CMakeFiles/ChatServer.dir/model/UserModel.cpp.o"
-  "/home/xxnwch/code/my_server_learn/2chat/src/server/redis/redis.cpp" "/home/xxnwch/code/my_server_learn/2chat/build/src/server/CMakeFiles/ChatServer.dir/redis/redis.cpp.o"
+  "/home/xxnwch/code/my_server_learn/2chat/chatserver/src/server/chatserver.cpp" "/home/xxnwch/code/my_server_learn/2chat/chatserver/build/src/server/CMakeFiles/ChatServer.dir/chatserver.cpp.o"
+  "/home/xxnwch/code/my_server_learn/2chat/chatserver/src/server/chatservice.cpp" "/home/xxnwch/code/my_server_learn/2chat/chatserver/build/src/server/CMakeFiles/ChatServer.dir/chatservice.cpp.o"
+  "/home/xxnwch/code/my_server_learn/2chat/chatserver/src/server/db/db.cpp" "/home/xxnwch/code/my_server_learn/2chat/chatserver/build/src/server/CMakeFiles/ChatServer.dir/db/db.cpp.o"
+  "/home/xxnwch/code/my_server_learn/2chat/chatserver/src/server/main.cpp" "/home/xxnwch/code/my_server_learn/2chat/chatserver/build/src/server/CMakeFiles/ChatServer.dir/main.cpp.o"
+  "/home/xxnwch/code/my_server_learn/2chat/chatserver/src/server/model/FriendModel.cpp" "/home/xxnwch/code/my_server_learn/2chat/chatserver/build/src/server/CMakeFiles/ChatServer.dir/model/FriendModel.cpp.o"
+  "/home/xxnwch/code/my_server_learn/2chat/chatserver/src/server/model/GroupModel.cpp" "/home/xxnwch/code/my_server_learn/2chat/chatserver/build/src/server/CMakeFiles/ChatServer.dir/model/GroupModel.cpp.o"
+  "/home/xxnwch/code/my_server_learn/2chat/chatserver/src/server/model/OfflineMessageModel.cpp" "/home/xxnwch/code/my_server_learn/2chat/chatserver/build/src/server/CMakeFiles/ChatServer.dir/model/OfflineMessageModel.cpp.o"
+  "/home/xxnwch/code/my_server_learn/2chat/chatserver/src/server/model/UserModel.cpp" "/home/xxnwch/code/my_server_learn/2chat/chatserver/build/src/server/CMakeFiles/ChatServer.dir/model/UserModel.cpp.o"
+  "/home/xxnwch/code/my_server_learn/2chat/chatserver/src/server/redis/redis.cpp" "/home/xxnwch/code/my_server_learn/2chat/chatserver/build/src/server/CMakeFiles/ChatServer.dir/redis/redis.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

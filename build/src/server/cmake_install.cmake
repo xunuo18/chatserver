@@ -1,4 +1,4 @@
-# Install script for directory: /home/xxnwch/code/my_server_learn/2chat/src/server
+# Install script for directory: /home/xxnwch/code/my_server_learn/2chat/chatserver/src/server
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

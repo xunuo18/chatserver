@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xxnwch/code/my_server_learn/2chat
+CMAKE_SOURCE_DIR = /home/xxnwch/code/my_server_learn/2chat/chatserver
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xxnwch/code/my_server_learn/2chat/build
+CMAKE_BINARY_DIR = /home/xxnwch/code/my_server_learn/2chat/chatserver/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/xxnwch/code/my_server_learn/2chat/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/xxnwch/code/my_server_learn/2chat/build/CMakeFiles /home/xxnwch/code/my_server_learn/2chat/build/src/server/CMakeFiles/progress.marks
-	cd /home/xxnwch/code/my_server_learn/2chat/build && $(MAKE) -f CMakeFiles/Makefile2 src/server/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xxnwch/code/my_server_learn/2chat/build/CMakeFiles 0
+	cd /home/xxnwch/code/my_server_learn/2chat/chatserver/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/xxnwch/code/my_server_learn/2chat/chatserver/build/CMakeFiles /home/xxnwch/code/my_server_learn/2chat/chatserver/build/src/server/CMakeFiles/progress.marks
+	cd /home/xxnwch/code/my_server_learn/2chat/chatserver/build && $(MAKE) -f CMakeFiles/Makefile2 src/server/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xxnwch/code/my_server_learn/2chat/chatserver/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/xxnwch/code/my_server_learn/2chat/build && $(MAKE) -f CMakeFiles/Makefile2 src/server/clean
+	cd /home/xxnwch/code/my_server_learn/2chat/chatserver/build && $(MAKE) -f CMakeFiles/Makefile2 src/server/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/xxnwch/code/my_server_learn/2chat/build && $(MAKE) -f CMakeFiles/Makefile2 src/server/preinstall
+	cd /home/xxnwch/code/my_server_learn/2chat/chatserver/build && $(MAKE) -f CMakeFiles/Makefile2 src/server/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/xxnwch/code/my_server_learn/2chat/build && $(MAKE) -f CMakeFiles/Makefile2 src/server/preinstall
+	cd /home/xxnwch/code/my_server_learn/2chat/chatserver/build && $(MAKE) -f CMakeFiles/Makefile2 src/server/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/xxnwch/code/my_server_learn/2chat/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/xxnwch/code/my_server_learn/2chat/chatserver/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/server/CMakeFiles/ChatServer.dir/rule:
-	cd /home/xxnwch/code/my_server_learn/2chat/build && $(MAKE) -f CMakeFiles/Makefile2 src/server/CMakeFiles/ChatServer.dir/rule
+	cd /home/xxnwch/code/my_server_learn/2chat/chatserver/build && $(MAKE) -f CMakeFiles/Makefile2 src/server/CMakeFiles/ChatServer.dir/rule
 .PHONY : src/server/CMakeFiles/ChatServer.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ ChatServer: src/server/CMakeFiles/ChatServer.dir/rule
 
 # fast build rule for target.
 ChatServer/fast:
-	cd /home/xxnwch/code/my_server_learn/2chat/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/build
+	cd /home/xxnwch/code/my_server_learn/2chat/chatserver/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/build
 .PHONY : ChatServer/fast
 
 chatserver.o: chatserver.cpp.o
@@ -131,7 +131,7 @@ chatserver.o: chatserver.cpp.o
 
 # target to build an object file
 chatserver.cpp.o:
-	cd /home/xxnwch/code/my_server_learn/2chat/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/chatserver.cpp.o
+	cd /home/xxnwch/code/my_server_learn/2chat/chatserver/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/chatserver.cpp.o
 .PHONY : chatserver.cpp.o
 
 chatserver.i: chatserver.cpp.i
@@ -140,7 +140,7 @@ chatserver.i: chatserver.cpp.i
 
 # target to preprocess a source file
 chatserver.cpp.i:
-	cd /home/xxnwch/code/my_server_learn/2chat/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/chatserver.cpp.i
+	cd /home/xxnwch/code/my_server_learn/2chat/chatserver/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/chatserver.cpp.i
 .PHONY : chatserver.cpp.i
 
 chatserver.s: chatserver.cpp.s
@@ -149,7 +149,7 @@ chatserver.s: chatserver.cpp.s
 
 # target to generate assembly for a file
 chatserver.cpp.s:
-	cd /home/xxnwch/code/my_server_learn/2chat/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/chatserver.cpp.s
+	cd /home/xxnwch/code/my_server_learn/2chat/chatserver/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/chatserver.cpp.s
 .PHONY : chatserver.cpp.s
 
 chatservice.o: chatservice.cpp.o
@@ -158,7 +158,7 @@ chatservice.o: chatservice.cpp.o
 
 # target to build an object file
 chatservice.cpp.o:
-	cd /home/xxnwch/code/my_server_learn/2chat/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/chatservice.cpp.o
+	cd /home/xxnwch/code/my_server_learn/2chat/chatserver/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/chatservice.cpp.o
 .PHONY : chatservice.cpp.o
 
 chatservice.i: chatservice.cpp.i
@@ -167,7 +167,7 @@ chatservice.i: chatservice.cpp.i
 
 # target to preprocess a source file
 chatservice.cpp.i:
-	cd /home/xxnwch/code/my_server_learn/2chat/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/chatservice.cpp.i
+	cd /home/xxnwch/code/my_server_learn/2chat/chatserver/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/chatservice.cpp.i
 .PHONY : chatservice.cpp.i
 
 chatservice.s: chatservice.cpp.s
@@ -176,7 +176,7 @@ chatservice.s: chatservice.cpp.s
 
 # target to generate assembly for a file
 chatservice.cpp.s:
-	cd /home/xxnwch/code/my_server_learn/2chat/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/chatservice.cpp.s
+	cd /home/xxnwch/code/my_server_learn/2chat/chatserver/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/chatservice.cpp.s
 .PHONY : chatservice.cpp.s
 
 db/db.o: db/db.cpp.o
@@ -185,7 +185,7 @@ db/db.o: db/db.cpp.o
 
 # target to build an object file
 db/db.cpp.o:
-	cd /home/xxnwch/code/my_server_learn/2chat/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/db/db.cpp.o
+	cd /home/xxnwch/code/my_server_learn/2chat/chatserver/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/db/db.cpp.o
 .PHONY : db/db.cpp.o
 
 db/db.i: db/db.cpp.i
@@ -194,7 +194,7 @@ db/db.i: db/db.cpp.i
 
 # target to preprocess a source file
 db/db.cpp.i:
-	cd /home/xxnwch/code/my_server_learn/2chat/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/db/db.cpp.i
+	cd /home/xxnwch/code/my_server_learn/2chat/chatserver/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/db/db.cpp.i
 .PHONY : db/db.cpp.i
 
 db/db.s: db/db.cpp.s
@@ -203,7 +203,7 @@ db/db.s: db/db.cpp.s
 
 # target to generate assembly for a file
 db/db.cpp.s:
-	cd /home/xxnwch/code/my_server_learn/2chat/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/db/db.cpp.s
+	cd /home/xxnwch/code/my_server_learn/2chat/chatserver/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/db/db.cpp.s
 .PHONY : db/db.cpp.s
 
 main.o: main.cpp.o
@@ -212,7 +212,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/xxnwch/code/my_server_learn/2chat/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/main.cpp.o
+	cd /home/xxnwch/code/my_server_learn/2chat/chatserver/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -221,7 +221,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/xxnwch/code/my_server_learn/2chat/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/main.cpp.i
+	cd /home/xxnwch/code/my_server_learn/2chat/chatserver/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -230,7 +230,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/xxnwch/code/my_server_learn/2chat/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/main.cpp.s
+	cd /home/xxnwch/code/my_server_learn/2chat/chatserver/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 model/FriendModel.o: model/FriendModel.cpp.o
@@ -239,7 +239,7 @@ model/FriendModel.o: model/FriendModel.cpp.o
 
 # target to build an object file
 model/FriendModel.cpp.o:
-	cd /home/xxnwch/code/my_server_learn/2chat/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/FriendModel.cpp.o
+	cd /home/xxnwch/code/my_server_learn/2chat/chatserver/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/FriendModel.cpp.o
 .PHONY : model/FriendModel.cpp.o
 
 model/FriendModel.i: model/FriendModel.cpp.i
@@ -248,7 +248,7 @@ model/FriendModel.i: model/FriendModel.cpp.i
 
 # target to preprocess a source file
 model/FriendModel.cpp.i:
-	cd /home/xxnwch/code/my_server_learn/2chat/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/FriendModel.cpp.i
+	cd /home/xxnwch/code/my_server_learn/2chat/chatserver/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/FriendModel.cpp.i
 .PHONY : model/FriendModel.cpp.i
 
 model/FriendModel.s: model/FriendModel.cpp.s
@@ -257,7 +257,7 @@ model/FriendModel.s: model/FriendModel.cpp.s
 
 # target to generate assembly for a file
 model/FriendModel.cpp.s:
-	cd /home/xxnwch/code/my_server_learn/2chat/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/FriendModel.cpp.s
+	cd /home/xxnwch/code/my_server_learn/2chat/chatserver/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/FriendModel.cpp.s
 .PHONY : model/FriendModel.cpp.s
 
 model/GroupModel.o: model/GroupModel.cpp.o
@@ -266,7 +266,7 @@ model/GroupModel.o: model/GroupModel.cpp.o
 
 # target to build an object file
 model/GroupModel.cpp.o:
-	cd /home/xxnwch/code/my_server_learn/2chat/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/GroupModel.cpp.o
+	cd /home/xxnwch/code/my_server_learn/2chat/chatserver/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/GroupModel.cpp.o
 .PHONY : model/GroupModel.cpp.o
 
 model/GroupModel.i: model/GroupModel.cpp.i
@@ -275,7 +275,7 @@ model/GroupModel.i: model/GroupModel.cpp.i
 
 # target to preprocess a source file
 model/GroupModel.cpp.i:
-	cd /home/xxnwch/code/my_server_learn/2chat/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/GroupModel.cpp.i
+	cd /home/xxnwch/code/my_server_learn/2chat/chatserver/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/GroupModel.cpp.i
 .PHONY : model/GroupModel.cpp.i
 
 model/GroupModel.s: model/GroupModel.cpp.s
@@ -284,7 +284,7 @@ model/GroupModel.s: model/GroupModel.cpp.s
 
 # target to generate assembly for a file
 model/GroupModel.cpp.s:
-	cd /home/xxnwch/code/my_server_learn/2chat/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/GroupModel.cpp.s
+	cd /home/xxnwch/code/my_server_learn/2chat/chatserver/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/GroupModel.cpp.s
 .PHONY : model/GroupModel.cpp.s
 
 model/OfflineMessageModel.o: model/OfflineMessageModel.cpp.o
@@ -293,7 +293,7 @@ model/OfflineMessageModel.o: model/OfflineMessageModel.cpp.o
 
 # target to build an object file
 model/OfflineMessageModel.cpp.o:
-	cd /home/xxnwch/code/my_server_learn/2chat/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/OfflineMessageModel.cpp.o
+	cd /home/xxnwch/code/my_server_learn/2chat/chatserver/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/OfflineMessageModel.cpp.o
 .PHONY : model/OfflineMessageModel.cpp.o
 
 model/OfflineMessageModel.i: model/OfflineMessageModel.cpp.i
@@ -302,7 +302,7 @@ model/OfflineMessageModel.i: model/OfflineMessageModel.cpp.i
 
 # target to preprocess a source file
 model/OfflineMessageModel.cpp.i:
-	cd /home/xxnwch/code/my_server_learn/2chat/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/OfflineMessageModel.cpp.i
+	cd /home/xxnwch/code/my_server_learn/2chat/chatserver/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/OfflineMessageModel.cpp.i
 .PHONY : model/OfflineMessageModel.cpp.i
 
 model/OfflineMessageModel.s: model/OfflineMessageModel.cpp.s
@@ -311,7 +311,7 @@ model/OfflineMessageModel.s: model/OfflineMessageModel.cpp.s
 
 # target to generate assembly for a file
 model/OfflineMessageModel.cpp.s:
-	cd /home/xxnwch/code/my_server_learn/2chat/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/OfflineMessageModel.cpp.s
+	cd /home/xxnwch/code/my_server_learn/2chat/chatserver/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/OfflineMessageModel.cpp.s
 .PHONY : model/OfflineMessageModel.cpp.s
 
 model/UserModel.o: model/UserModel.cpp.o
@@ -320,7 +320,7 @@ model/UserModel.o: model/UserModel.cpp.o
 
 # target to build an object file
 model/UserModel.cpp.o:
-	cd /home/xxnwch/code/my_server_learn/2chat/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/UserModel.cpp.o
+	cd /home/xxnwch/code/my_server_learn/2chat/chatserver/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/UserModel.cpp.o
 .PHONY : model/UserModel.cpp.o
 
 model/UserModel.i: model/UserModel.cpp.i
@@ -329,7 +329,7 @@ model/UserModel.i: model/UserModel.cpp.i
 
 # target to preprocess a source file
 model/UserModel.cpp.i:
-	cd /home/xxnwch/code/my_server_learn/2chat/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/UserModel.cpp.i
+	cd /home/xxnwch/code/my_server_learn/2chat/chatserver/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/UserModel.cpp.i
 .PHONY : model/UserModel.cpp.i
 
 model/UserModel.s: model/UserModel.cpp.s
@@ -338,7 +338,7 @@ model/UserModel.s: model/UserModel.cpp.s
 
 # target to generate assembly for a file
 model/UserModel.cpp.s:
-	cd /home/xxnwch/code/my_server_learn/2chat/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/UserModel.cpp.s
+	cd /home/xxnwch/code/my_server_learn/2chat/chatserver/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/UserModel.cpp.s
 .PHONY : model/UserModel.cpp.s
 
 redis/redis.o: redis/redis.cpp.o
@@ -347,7 +347,7 @@ redis/redis.o: redis/redis.cpp.o
 
 # target to build an object file
 redis/redis.cpp.o:
-	cd /home/xxnwch/code/my_server_learn/2chat/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/redis/redis.cpp.o
+	cd /home/xxnwch/code/my_server_learn/2chat/chatserver/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/redis/redis.cpp.o
 .PHONY : redis/redis.cpp.o
 
 redis/redis.i: redis/redis.cpp.i
@@ -356,7 +356,7 @@ redis/redis.i: redis/redis.cpp.i
 
 # target to preprocess a source file
 redis/redis.cpp.i:
-	cd /home/xxnwch/code/my_server_learn/2chat/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/redis/redis.cpp.i
+	cd /home/xxnwch/code/my_server_learn/2chat/chatserver/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/redis/redis.cpp.i
 .PHONY : redis/redis.cpp.i
 
 redis/redis.s: redis/redis.cpp.s
@@ -365,7 +365,7 @@ redis/redis.s: redis/redis.cpp.s
 
 # target to generate assembly for a file
 redis/redis.cpp.s:
-	cd /home/xxnwch/code/my_server_learn/2chat/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/redis/redis.cpp.s
+	cd /home/xxnwch/code/my_server_learn/2chat/chatserver/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/redis/redis.cpp.s
 .PHONY : redis/redis.cpp.s
 
 # Help Target
@@ -415,6 +415,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/xxnwch/code/my_server_learn/2chat/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/xxnwch/code/my_server_learn/2chat/chatserver/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

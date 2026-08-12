@@ -7,4 +7,4 @@ src/client/CMakeFiles/ChatClient.dir/main.cpp.o
  ../include/server/model/GroupUser.hpp
  ../include/server/model/user.hpp
  ../thirdparty/json.hpp
- /home/xxnwch/code/my_server_learn/2chat/src/client/main.cpp
+ /home/xxnwch/code/my_server_learn/2chat/chatserver/src/client/main.cpp

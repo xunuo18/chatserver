@@ -354,9 +354,9 @@ limits
 type_traits
 -
 
-/home/xxnwch/code/my_server_learn/2chat/src/client/main.cpp
+/home/xxnwch/code/my_server_learn/2chat/chatserver/src/client/main.cpp
 json.hpp
-/home/xxnwch/code/my_server_learn/2chat/src/client/json.hpp
+/home/xxnwch/code/my_server_learn/2chat/chatserver/src/client/json.hpp
 iostream
 -
 thread
@@ -382,9 +382,9 @@ netinet/in.h
 arpa/inet.h
 -
 Group.hpp
-/home/xxnwch/code/my_server_learn/2chat/src/client/Group.hpp
+/home/xxnwch/code/my_server_learn/2chat/chatserver/src/client/Group.hpp
 user.hpp
-/home/xxnwch/code/my_server_learn/2chat/src/client/user.hpp
+/home/xxnwch/code/my_server_learn/2chat/chatserver/src/client/user.hpp
 public.hpp
-/home/xxnwch/code/my_server_learn/2chat/src/client/public.hpp
+/home/xxnwch/code/my_server_learn/2chat/chatserver/src/client/public.hpp
 

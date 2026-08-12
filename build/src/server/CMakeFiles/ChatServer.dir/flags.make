@@ -6,5 +6,5 @@ CXX_FLAGS = -g
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/xxnwch/code/my_server_learn/2chat/include -I/home/xxnwch/code/my_server_learn/2chat/include/server -I/home/xxnwch/code/my_server_learn/2chat/include/server/db -I/home/xxnwch/code/my_server_learn/2chat/include/server/model -I/home/xxnwch/code/my_server_learn/2chat/include/server/redis -I/home/xxnwch/code/my_server_learn/2chat/thirdparty 
+CXX_INCLUDES = -I/home/xxnwch/code/my_server_learn/2chat/chatserver/include -I/home/xxnwch/code/my_server_learn/2chat/chatserver/include/server -I/home/xxnwch/code/my_server_learn/2chat/chatserver/include/server/db -I/home/xxnwch/code/my_server_learn/2chat/chatserver/include/server/model -I/home/xxnwch/code/my_server_learn/2chat/chatserver/include/server/redis -I/home/xxnwch/code/my_server_learn/2chat/chatserver/thirdparty 
 

@@ -424,25 +424,25 @@ limits
 type_traits
 -
 
-/home/xxnwch/code/my_server_learn/2chat/src/server/chatserver.cpp
+/home/xxnwch/code/my_server_learn/2chat/chatserver/src/server/chatserver.cpp
 server/chatserver.hpp
-/home/xxnwch/code/my_server_learn/2chat/src/server/server/chatserver.hpp
+/home/xxnwch/code/my_server_learn/2chat/chatserver/src/server/server/chatserver.hpp
 server/chatservice.hpp
-/home/xxnwch/code/my_server_learn/2chat/src/server/server/chatservice.hpp
+/home/xxnwch/code/my_server_learn/2chat/chatserver/src/server/server/chatservice.hpp
 json.hpp
-/home/xxnwch/code/my_server_learn/2chat/src/server/json.hpp
+/home/xxnwch/code/my_server_learn/2chat/chatserver/src/server/json.hpp
 functional
 -
 iostream
 -
 
-/home/xxnwch/code/my_server_learn/2chat/src/server/chatservice.cpp
+/home/xxnwch/code/my_server_learn/2chat/chatserver/src/server/chatservice.cpp
 chatservice.hpp
-/home/xxnwch/code/my_server_learn/2chat/src/server/chatservice.hpp
+/home/xxnwch/code/my_server_learn/2chat/chatserver/src/server/chatservice.hpp
 public.hpp
-/home/xxnwch/code/my_server_learn/2chat/src/server/public.hpp
+/home/xxnwch/code/my_server_learn/2chat/chatserver/src/server/public.hpp
 Group.hpp
-/home/xxnwch/code/my_server_learn/2chat/src/server/Group.hpp
+/home/xxnwch/code/my_server_learn/2chat/chatserver/src/server/Group.hpp
 functional
 -
 string
@@ -456,51 +456,51 @@ vector
 map
 -
 
-/home/xxnwch/code/my_server_learn/2chat/src/server/db/db.cpp
+/home/xxnwch/code/my_server_learn/2chat/chatserver/src/server/db/db.cpp
 db.h
-/home/xxnwch/code/my_server_learn/2chat/src/server/db/db.h
+/home/xxnwch/code/my_server_learn/2chat/chatserver/src/server/db/db.h
 muduo/base/Logging.h
 -
 
-/home/xxnwch/code/my_server_learn/2chat/src/server/main.cpp
+/home/xxnwch/code/my_server_learn/2chat/chatserver/src/server/main.cpp
 chatserver.hpp
-/home/xxnwch/code/my_server_learn/2chat/src/server/chatserver.hpp
+/home/xxnwch/code/my_server_learn/2chat/chatserver/src/server/chatserver.hpp
 chatservice.hpp
-/home/xxnwch/code/my_server_learn/2chat/src/server/chatservice.hpp
+/home/xxnwch/code/my_server_learn/2chat/chatserver/src/server/chatservice.hpp
 signal.h
 -
 
-/home/xxnwch/code/my_server_learn/2chat/src/server/model/FriendModel.cpp
+/home/xxnwch/code/my_server_learn/2chat/chatserver/src/server/model/FriendModel.cpp
 FriendModel.hpp
-/home/xxnwch/code/my_server_learn/2chat/src/server/model/FriendModel.hpp
+/home/xxnwch/code/my_server_learn/2chat/chatserver/src/server/model/FriendModel.hpp
 db.h
-/home/xxnwch/code/my_server_learn/2chat/src/server/model/db.h
+/home/xxnwch/code/my_server_learn/2chat/chatserver/src/server/model/db.h
 
-/home/xxnwch/code/my_server_learn/2chat/src/server/model/GroupModel.cpp
+/home/xxnwch/code/my_server_learn/2chat/chatserver/src/server/model/GroupModel.cpp
 GroupModel.hpp
-/home/xxnwch/code/my_server_learn/2chat/src/server/model/GroupModel.hpp
+/home/xxnwch/code/my_server_learn/2chat/chatserver/src/server/model/GroupModel.hpp
 db.h
-/home/xxnwch/code/my_server_learn/2chat/src/server/model/db.h
+/home/xxnwch/code/my_server_learn/2chat/chatserver/src/server/model/db.h
 cstring
 -
 
-/home/xxnwch/code/my_server_learn/2chat/src/server/model/OfflineMessageModel.cpp
+/home/xxnwch/code/my_server_learn/2chat/chatserver/src/server/model/OfflineMessageModel.cpp
 OfflineMessageModel.hpp
-/home/xxnwch/code/my_server_learn/2chat/src/server/model/OfflineMessageModel.hpp
+/home/xxnwch/code/my_server_learn/2chat/chatserver/src/server/model/OfflineMessageModel.hpp
 db.h
 -
 
-/home/xxnwch/code/my_server_learn/2chat/src/server/model/UserModel.cpp
+/home/xxnwch/code/my_server_learn/2chat/chatserver/src/server/model/UserModel.cpp
 UserModel.hpp
-/home/xxnwch/code/my_server_learn/2chat/src/server/model/UserModel.hpp
+/home/xxnwch/code/my_server_learn/2chat/chatserver/src/server/model/UserModel.hpp
 db.h
-/home/xxnwch/code/my_server_learn/2chat/src/server/model/db.h
+/home/xxnwch/code/my_server_learn/2chat/chatserver/src/server/model/db.h
 string
 -
 
-/home/xxnwch/code/my_server_learn/2chat/src/server/redis/redis.cpp
+/home/xxnwch/code/my_server_learn/2chat/chatserver/src/server/redis/redis.cpp
 redis.hpp
-/home/xxnwch/code/my_server_learn/2chat/src/server/redis/redis.hpp
+/home/xxnwch/code/my_server_learn/2chat/chatserver/src/server/redis/redis.hpp
 iostream
 -
 
