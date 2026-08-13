@@ -381,6 +381,10 @@ netinet/in.h
 -
 arpa/inet.h
 -
+semaphore.h
+-
+atomic
+-
 Group.hpp
 /home/xxnwch/code/my_server_learn/2chat/chatserver/src/client/Group.hpp
 user.hpp
